@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('nama_divisi');
             $table->text('deskripsi_divisi')->nullable();
-            $table->string('lokasi');
             $table->timestamps();
         });
     }
@@ -25,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('divisis');
+        Schema::dropIfExists('divisi');
     }
 };

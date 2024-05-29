@@ -19,7 +19,6 @@ return new class extends Migration
             $table->string('alamat');
             $table->enum('jenis_kelamin', ['L', 'P']);
             $table->boolean('aktif')->default(true);
-            $table->string('foto')->nullable();
             $table->foreignId('divisi_id')->cascadeOnUpdate()->nullOnDelete();
             $table->foreignId('pekerjaan_id')->cascadeOnUpdate()->nullOnDelete();
             $table->timestamps();
@@ -31,6 +30,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('karyawans');
+        Schema::dropIfExists('karyawan');
     }
 };

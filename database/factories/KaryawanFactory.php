@@ -25,7 +25,6 @@ class KaryawanFactory extends Factory
             'alamat' => fake()->address(),
             'jenis_kelamin' => fake()->randomElement(['L', 'P']),
             'aktif' => fake()->boolean(),
-            'foto' => fake()->imageUrl(),
             'divisi_id' => Divisi::factory(),
             'pekerjaan_id' => Pekerjaan::factory(),
         ];

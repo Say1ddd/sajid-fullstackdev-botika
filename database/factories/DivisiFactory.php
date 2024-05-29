@@ -19,7 +19,6 @@ class DivisiFactory extends Factory
         return [
             'nama_divisi' => fake()->word(),
             'deskripsi_divisi' => fake()->text(),
-            'lokasi' => fake()->city(),
         ];
     }
 }

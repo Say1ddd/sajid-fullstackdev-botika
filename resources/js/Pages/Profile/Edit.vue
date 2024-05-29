@@ -31,14 +31,11 @@ defineProps({
                         :status="status"
                         class="max-w-xl"
                     />
+                    <DeleteUserForm class="max-w-xl mt-10" />
                 </div>
 
                 <div class="p-4 sm:p-8 bg-white shadow sm:rounded-lg">
                     <UpdatePasswordForm class="max-w-xl" />
-                </div>
-
-                <div class="p-4 sm:p-8 bg-white shadow sm:rounded-lg">
-                    <DeleteUserForm class="max-w-xl" />
                 </div>
             </div>
         </div>

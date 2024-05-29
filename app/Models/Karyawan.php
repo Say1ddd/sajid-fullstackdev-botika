@@ -20,7 +20,6 @@ class Karyawan extends Model
         'alamat',
         'jenis_kelamin',
         'aktif',
-        'foto',
         'divisi_id',
         'pekerjaan_id',
     ];

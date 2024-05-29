@@ -15,7 +15,6 @@ class Divisi extends Model
     protected $fillable = [
         'nama_divisi',
         'deskripsi_divisi',
-        'lokasi',
     ];
 
     public function karyawans()

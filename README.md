@@ -19,19 +19,15 @@ Keterangan dari struktur database sekaligus tipe data dan validasi yang disesuai
 
 | Key           | Value                   |
 | ------------- | ----------------------- |
-| key_1         | value_1                 |
-| key_2         | value_2                 |
-| key_3         | value_3                 |
-| ...           | ...                     |
+| nama_pekerjaan| string                  |
+| deskripsi_pekerjaan| string, nullable|
 
 ## Tabel Divisi
 
 | Key           | Value                   |
 | ------------- | ----------------------- |
-| key_1         | value_1                 |
-| key_2         | value_2                 |
-| key_3         | value_3                 |
-| ...           | ...                     |
+| nama_divisi| string                  |
+| deskripsi_divisi| string, nullable|
 
 # Dokumentasi API
 
